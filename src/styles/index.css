@@ -4,6 +4,8 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/*Navigation Bar/Header*/
+
 header {
   display: flex;
   justify-content: space-around;
@@ -21,6 +23,38 @@ h1 {
   text-align: center;
 }
 
+/*About Page*/
+
+.georgia {
+  margin-left: 100px;
+}
+
+.bio {
+  text-align: left;
+  margin-left: 100px;
+}
+
+/*Contact Page*/
+
+.contact_page {
+  text-align: left;
+  margin-left: 110px;
+}
+
+/*References Page*/
+
+.references_info {
+  margin-left: 110px;
+}
+
+/*Portfolio Page*/
+
+.skills {
+  margin-left: 100px;
+}
+
+/*Footer*/
+
 
 footer {
 display: flex;
@@ -34,9 +68,4 @@ padding-top: 30px;
 
 footer a {
   color: #4AA8D0;
-}
-
-.contact_page {
-  text-align: center;
-  display: inline;
 }
