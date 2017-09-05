@@ -9,7 +9,7 @@ export default class References extends Component {
     return (
       <section className="references">
 
-       <div className="ref_info">
+       <div className="references_info">
          <h2>Name</h2>
          <p>Title</p>
          <a href=""></a>
