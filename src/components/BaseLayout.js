@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 
 import {NavLink} from 'react-router-dom';
 
+import GTA_logo from '../styles/Images/GTA_logo.jpg';
+
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <header>
+           <img id="logo" src={GTA_logo} alt="" />
            <div className="link"><NavLink to="/About">About Georgia</NavLink></div>
            <div className="link"><NavLink to="/Home">Home</NavLink></div>
            <div className="link"><NavLink to="/Portfolio">Portfolio</NavLink></div>
