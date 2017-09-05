@@ -18,6 +18,13 @@ header a:visited{
   color: #4AA8D0;
 }
 
+/*Landing*/
+
+.landing {
+  text-align: left;
+  margin-left: 100px;
+}
+
 
 h1 {
   text-align: center;
@@ -50,7 +57,7 @@ h1 {
 /*Portfolio Page*/
 
 .skills {
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 /*Footer*/

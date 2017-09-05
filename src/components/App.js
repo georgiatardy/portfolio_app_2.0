@@ -7,7 +7,14 @@ export default class App extends Component {
   render() {
     return (
 
-      <h2>Hello World, Im Georgia Tardy. Fine Artist, Designer and Developer. Click the links above to learn more about me</h2>
+      <h1 className="landing">
+      <div>Georgia Tardy Art</div>
+      <br></br>
+      <div>Fine Artist || Designer || Developer</div>
+      <br></br>
+      <div>Click the links above to learn more about me</div>
+
+      </h1>
 
     );
   }
